@@ -46,6 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
+            android:onClick="onClick"
             android:src="@drawable/twitter"
             android:tag="https://twitter.com/evanstonpets" />
 
@@ -54,6 +55,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
+            android:onClick="onClick"
             android:src="@drawable/facebook"
             android:tag="https://www.facebook.com/evanstonpets" />
 
@@ -62,6 +64,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
+            android:onClick="onClick"
             android:src="@drawable/instagram"
             android:tag="https://www.instagram.com/evanstonpets" />
     </LinearLayout>
